@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     z-index: 1;
 }
-.flag__birthday{
+.flag__NAVIDAD{
     display: flex;
     justify-content: space-between;
     transform: translateY(-200px);
@@ -46,7 +46,7 @@ body {
         transform: translateY(-10px);
     }
 }
-.flag__birthday .flag__left{
+.flag__NAVIDAD .flag__left{
     transform: rotate(-10deg) translate(-20px,30px);
 }
 .flag__birthday .flag__right{
@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .FELIZ, .title .NAVIDAD{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -141,10 +141,10 @@ body {
     display: flex;
     justify-content: center;
 }
-.title .happy{
+.title .FELIZ{
     color: var(--color-white);
 }
-.title .happy span, .title .birthday span{
+.title .FELIZ span, .title .NAVIDAD span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title .birthday{
+.title .FELIZ{
     color: var(--color-text-pink);
 }
 
