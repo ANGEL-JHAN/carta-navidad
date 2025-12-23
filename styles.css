@@ -8,6 +8,7 @@
 }
 :root{
     --color-pink: #feecea;
+    --color-green: #00FF00;
     --color-white: #fff;
     --color-black: #333;
     --color-text-pink: #FF7882;
@@ -130,7 +131,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .Feliz, .title .Navidad{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -142,12 +143,12 @@ body {
     justify-content: center;
 }
 .title .Feliz{
-    color: var(--color-white);
+    color: var(--color-green);
 }
 .title .Feliz span, .title .Navidad span{
-    transform: translateY(20px);
+    transform: translateY(10px);
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     opacity: 0;
     visibility: hidden;
     animation: txtTranslateY .5s var(--t) forwards;
@@ -165,7 +166,7 @@ body {
 
 .title .hat{
     position: absolute;
-    right: 25px;
+    right: 10px;
     top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
