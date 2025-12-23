@@ -146,6 +146,8 @@ body {
 }
 .title .Feliz span, .title .Navidad span{
     transform: translateY(20px);
+    text-align: center;
+    font-size: 20px;
     opacity: 0;
     visibility: hidden;
     animation: txtTranslateY .5s var(--t) forwards;
